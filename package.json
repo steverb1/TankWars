@@ -1,0 +1,22 @@
+{
+  "name": "mobster-tank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter kit tank for MobProgrammingConf 2018",
+  "scripts": {
+    "precreate": "npm install -s",
+    "create": "TMPDIR=/tmp claudia create --name mobster-${HOSTNAME} --region us-east-1 --api-module tank",
+    "deploy": "TMPDIR=/tmp claudia update",
+    "lint": "standard --fix"
+  },
+  "author": "Marcus Hammarberg",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^3",
+    "mocha": "^5.0.4"
+  },
+  "devDependencies": {
+    "claudia": "^3",
+    "standard": "^10.0.3"
+  }
+}

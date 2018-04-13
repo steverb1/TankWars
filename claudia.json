@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "mobster-56d4d364c44e-executor",
+    "name": "mobster-56d4d364c44e",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "bhzxfq22pc",
+    "module": "tank"
+  }
+}
